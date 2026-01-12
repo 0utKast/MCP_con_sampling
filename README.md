@@ -44,6 +44,15 @@ Copia la URL con el Token que aparecerá en la terminal y pégala en tu navegado
 
 Este servidor demuestra la potencialidad de que las herramientas de IA no solo devuelvan datos, sino que **orquesten pensamientos**. En lugar de requerir una infraestructura compleja de agentes, "The Newsroom" utiliza al propio Cliente (como Cursor o Claude Desktop) para realizar las llamadas cognitivas, permitiendo una escalabilidad inteligente y económica.
 
+## 📚 Recursos Educativos (Documentación del Proceso)
+
+Para ayudar a entender mejor el desarrollo de este servidor MCP, hemos incluido los documentos de planificación y depuración generados durante su creación:
+
+*   [**Informe de Sampling**](Sampling_Report_Debugging_MCP_Server_Launch.md): Explicación detallada del concepto de Muestreo e Inversión de Control.
+*   [**Guía de Uso (Walkthrough)**](Walkthrough_Debugging_MCP_Server_Launch.md): Cómo probar y verificar las herramientas paso a paso.
+*   [**Plan de Implementación**](Implementation_Plan_Debugging_MCP_Server_Launch.md): El diseño técnico original y los retos superados.
+*   [**Registro de Tareas**](Task_Debugging_MCP_Server_Launch.md): El checklist del proceso de construcción.
+
 ## 📄 Licencia
 MIT
 
