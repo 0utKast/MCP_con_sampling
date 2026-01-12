@@ -1,0 +1,41 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno (¡CRÍTICO!: Contiene tu API KEY)
+.env
+
+# Archivos de sistema y Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# MCP / Herramientas de desarrollo
+.mcp/
+mcp_inspector.log
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Iconos temporales o generados
+newsroom_mcp_icon.png

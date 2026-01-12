@@ -1,0 +1,4 @@
+fastmcp
+mcp
+google-generativeai
+python-dotenv
