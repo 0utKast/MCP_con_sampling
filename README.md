@@ -1,18 +1,19 @@
 # 📰 The Newsroom MCP (Model Context Protocol)
 
-**Versión:** 0.1.0-alpha
+**Versión:** 0.2.0-alpha
 
 Este proyecto implementa un servidor **MCP (Model Context Protocol)** avanzado llamado **"The Newsroom"** (La Sala de Redacción). Utiliza la técnica de **MCP Sampling (Muestreo)** e **Inversión de Control** para orquestar un flujo de revisión editorial multi-persona utilizando IA.
 
 ## 🚀 Características
 
-- **Orquestación Multi-Persona**: Un borrador de texto es analizado simultáneamente por tres expertos virtuales:
+- **Modo Concilio de Expertos (v0.2.0)**: Optimización para evitar timeouts en el MCP Inspector mediante una única llamada cognitiva maestra que integra a todos los expertos.
+- **Orquestación Multi-Persona**: Un borrador de texto es analizado desde tres perspectivas críticas:
     - 😈 **El Escéptico**: Busca fallos lógicos, riesgos y debilidades.
     - 🤝 **El Empatizador**: Analiza el tono y el impacto emocional en la audiencia.
-    - 📝 **El Corrector de Estilo**: Busca mejorar la gramática, claridad y fluidez.
-- **Síntesis del Editor Jefe**: Un cuarto proceso actúa como Editor Jefe, recibiendo las tres críticas y el texto original para generar una versión final pulida y equilibrada.
-- **Arquitectura Híbrida**: Diseñado para soportar **MCP Sampling** (usando el cerebro del cliente) con un fallback automático a la **API de Gemini 2.0 Flash** (usando el cerebro del servidor).
-- **Herramientas de Diagnóstico**: Incluye herramientas `ping` y `ping_ai` para verificar la conectividad y el estado de la IA.
+    - 📝 **El Corrector de Estilo (Lingüista)**: Busca asegurar la claridad radical y gramática perfecta.
+- **Síntesis del Editor Jefe**: Genera una versión final pulida y equilibrada integrando todas las críticas.
+- **Arquitectura Híbrida Robusta**: Diseñado para soportar **MCP Sampling** con un fallback automático ultra-rápido a la **API de Gemini 2.0 Flash**.
+- **Herramientas de Diagnóstico**: Incluye herramienta `ping` optimizada para verificar latencia y conectividad.
 
 ## 🛠️ Instalación y Uso
 
